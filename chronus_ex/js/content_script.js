@@ -19,25 +19,3 @@ chrome.runtime.onMessage.addListener(
     }
   }
 );
-
-
-// (function () {
-//     var start_list = OPERATION.document.getElementsByName('PeriodStart');
-//     var end_list = OPERATION.document.getElementsByName('PeriodEnd');
-//     var work_list = OPERATION.document.getElementsByName('WorkIDSelect');
-//     var holiday_list = OPERATION.document.getElementsByName('HolidayIDSelect');
-//     var cause_list = OPERATION.document.getElementsByName('Cause');
-//     console.log('test');
-//
-//     for (var i = 0, len = start_list.length; i < len-1; i++) {
-//         if (holiday_list[i].value == ' ') {
-//           chrome.storage.local.get(["start", "end", "work", "cause"], function (value) {
-//             start_list[i].value = value.start;
-//           })
-//
-//             end_list[i].value = localStorage.getItem("end");
-//             work_list[i].value = localStorage.getItem("work");
-//             cause_list[i].value = localStorage.getItem("cause");
-//         }
-//     }
-// })();
